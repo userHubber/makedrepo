@@ -19,7 +19,7 @@
         </classes>
     </test>
     
-    <test name="LoginPositive">
+<!--    <test name="LoginPositive">
         <classes>
             <class name="kng.tests.loginAndRegistration.login.Case_Positive"/>
         </classes>
@@ -34,7 +34,7 @@
         <classes>
             <class name="kng.tests.loginAndRegistration.registration.Case"/>
         </classes>
-    </test>
+    </test>-->
     
 <!--    <test name="ProductReviews">
         <groups>
