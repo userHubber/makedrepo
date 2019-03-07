@@ -36,7 +36,7 @@
         </classes>
     </test>
     
-    <test name="ProductReviews">
+<!--    <test name="ProductReviews">
         <groups>
             <run>
                 <include name = "prod" />
@@ -131,7 +131,7 @@
         </classes>
     </test>
     
-<!--    <test name="AutoregSplitMoskva">
+    <test name="AutoregSplitMoskva">
         <groups>
             <run>
                 <include name = "prod" />
@@ -140,7 +140,7 @@
         <classes>
             <class name="kng.tests.purchase.autoreg.cash.moskva_split.Case_OrderSplit"/>
         </classes>
-    </test>-->
+    </test>
     
     <test name="AutoregCardMoskva">
         <groups>
@@ -186,7 +186,7 @@
             <class name="kng.tests.loginAndRegistration.login.Case_Negative"/>
         </classes>
     </test>
-    
+    -->
 </suite>
 
 
