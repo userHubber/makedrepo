@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Prod" verbose ="1">
+    
+    <test name="Start">
+        <groups>
+            <run>
+                <include name = "prod" />
+            </run>
+        </groups>
+        <classes>
+            <class name="kng.tests.StartHost"/>
+        </classes>
+    </test>
+    
+    <test name="MainPage">
+        <classes>
+            <class name="kng.tests.mainPage.Case_MainPage"/>
+        </classes>
+    </test>
+    
+    <test name="LoginPositive">
+        <classes>
+            <class name="kng.tests.loginAndRegistration.login.Case_Positive"/>
+        </classes>
+    </test>
+    
+    <test name="Registration">
+        <groups>
+            <run>
+                <include name = "prod" />
+            </run>
+        </groups>
+        <classes>
+            <class name="kng.tests.loginAndRegistration.registration.Case"/>
+        </classes>
+    </test>
+    
+    <test name="ProductReviews">
+        <groups>
+            <run>
+                <include name = "prod" />
+            </run>
+        </groups>
+        <classes>
+            <class name="kng.tests.reviews.Case_ReviewsProduct"/>
+        </classes>
+    </test>
+    
+    <test name="BrandSubscribeControl">
+        <groups>
+            <run>
+                <include name = "prod" />
+            </run>
+        </groups>
+        <classes>
+            <class name="kng.tests.brands.Case_BrandSubscribe"/>
+        </classes>
+    </test>
+    
+    <test name="AddAndDeleteFavoriteControl">
+        <classes>
+            <class name="kng.tests.favorite.Case_AddAndDeleteFavorite"/>
+        </classes>
+    </test>
+    
+    <test name="RetailRegistration">
+        <classes>
+            <class name="kng.tests.admin.retailReg.Case_RegistrationRetail"/>
+        </classes>
+    </test>
+    
+    <test name="RetailRegConfirmation">
+        <classes>
+           <class name="kng.tests.admin.retailReg.Case_ConfirmationRetail"/>
+        </classes>
+    </test>
+    
+    <test name="AutoregCashMoskva">
+        <groups>
+            <run>
+                <include name = "prod" />
+            </run>
+        </groups>
+        <classes>
+            <class name="kng.tests.purchase.autoreg.cash.moskva.Case_CashMoskva"/>
+        </classes>
+    </test>
+    
+    <test name="AutoregCashMoskvaEuro">
+        <groups>
+            <run>
+                <include name = "prod" />
+            </run>
+        </groups>
+        <classes>
+            <class name="kng.tests.purchase.autoreg.cash.moskva_euro.Case_EuroMoskva"/>
+        </classes>
+    </test>
+    
+    <test name="AutoregCashMoskvaCoupon">
+        <groups>
+            <run>
+                <include name = "prod" />
+            </run>
+        </groups>
+        <classes>
+            <class name="kng.tests.purchase.autoreg.cash.moskva_coupon.Case"/>
+        </classes>
+    </test>
+    
+    <test name="AutoregCashMoskvaLetual">
+        <groups>
+            <run>
+                <include name = "prod" />
+            </run>
+        </groups>
+        <classes>
+            <class name="kng.tests.purchase.autoreg.cash.moskva_letual.Case_Letual"/>
+        </classes>
+    </test>
+    
+    <test name="AutoregCashMoskvaPickup">
+        <groups>
+            <run>
+                <include name = "prod" />
+            </run>
+        </groups>
+        <classes>
+            <class name="kng.tests.purchase.autoreg.cash.moskva_pickup.Case_Pickup"/>
+        </classes>
+    </test>
+    
+<!--    <test name="AutoregSplitMoskva">
+        <groups>
+            <run>
+                <include name = "prod" />
+            </run>
+        </groups>
+        <classes>
+            <class name="kng.tests.purchase.autoreg.cash.moskva_split.Case_OrderSplit"/>
+        </classes>
+    </test>-->
+    
+    <test name="AutoregCardMoskva">
+        <groups>
+            <run>
+                <include name = "prod" />
+            </run>
+        </groups>
+        <classes>
+             <class name="kng.tests.purchase.autoreg.card.moskva.Case_CardMoskva"/>
+        </classes>
+    </test>
+    
+    <test name="Catalog">
+        <groups>
+            <run>
+                <include name = "prod" />
+            </run>
+        </groups>
+        <classes>
+            <class name="kng.tests.catalog.Case_Catalog"/>
+        </classes>
+    </test>
+    
+    <test name="CheckoutControl">
+        <groups>
+            <run>
+                <include name = "prod" />
+            </run>
+        </groups>
+        <classes>
+            <class name="kng.tests.checkout.Case_Checkout"/>
+        </classes>
+    </test>
+    
+    <test name="BrandsWithNotDiscountCoupons">
+        <classes>
+            <class name="kng.tests.brands.Case_BrandnotDiscountCoupons"/>
+        </classes>
+    </test>
+    
+    <test name="LoginNegative">
+        <classes>
+            <class name="kng.tests.loginAndRegistration.login.Case_Negative"/>
+        </classes>
+    </test>
+    
+</suite>
+
+
+
+
+<!--    <test name="CashMoskvaBonus">
+    <classes>
+        <class name="kng.tests.purchase.userlogin.cash.moskva_bonus.Case"/>
+    </classes>
+</test>-->
+    

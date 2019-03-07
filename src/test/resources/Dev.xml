@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Dev" verbose ="1">
+    
+    <test name="Start">
+        <groups>
+            <run>
+                <include name = "dev" />
+            </run>
+        </groups>
+        <classes>
+            <class name="kng.tests.StartHost"/>
+        </classes>
+    </test>
+    
+    <test name="LoginPositive">
+        <classes>
+            <class name="kng.tests.loginAndRegistration.login.Case_Positive"/>
+        </classes>
+    </test>
+    
+    <test name="Registration">
+        <groups>
+            <run>
+                <include name = "dev" />
+            </run>
+        </groups>
+        <classes>
+            <class name="kng.tests.loginAndRegistration.registration.Case"/>
+        </classes>
+    </test>
+    
+    
+    
+</suite>
+
+
+
+
+
+<!--        <test name="CashMoskvaBonus">
+    <classes>
+        <class name="kng.tests.purchase.userlogin.cash.moskva_bonus.Case"/>
+    </classes>
+</test>-->
