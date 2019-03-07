@@ -43,8 +43,8 @@
                 <version>2.22.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src\test\resources\Dev.xml</suiteXmlFile>
-                        <!--<suiteXmlFile>src\test\resources\Prod.xml</suiteXmlFile>-->
+                        <!--<suiteXmlFile>src\test\resources\Dev.xml</suiteXmlFile>-->
+                        <suiteXmlFile>src\test\resources\Prod.xml</suiteXmlFile>
                         <!--<suiteXmlFile>src\test\resources\Pre.xml</suiteXmlFile>-->
                     </suiteXmlFiles>
                 </configuration>
