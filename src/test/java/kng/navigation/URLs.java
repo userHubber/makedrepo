@@ -24,14 +24,10 @@ public class URLs extends Domain {
     public static final String ORDER_REVIEW = MAINPAGE + "/orderReview/";
     public static final String RETAIL_REG_FORM = MAINPAGE + "/protected/admin/retail_registration/reg";
     public static final String RETAIL_CONFIRM_FORM = MAINPAGE + "/protected/admin/retail_registration/confirm?fields=true";
-    public static final String ORDERS_DEPARTMENT = MAINPAGE + "/protected/admin/testing/index";
-    public static final String REVIEW_DEPARTMENT = MAINPAGE + "/protected/admin/reviews/work";
     public static final String ALL_BRAND_PAGE = MAINPAGE + "/brands";
     public static final String PRODUCT_WITH_MANY_COMMENTS = MAINPAGE + "/product/g16061517156/awama-plate";
     public static final String PRODUCT_FOR_BAD_COMMENTS = MAINPAGE + "/product/w17012290592/art_parfyum-alibi_strong_95_ml";
     public static final String PRODUCT_FOR_GOOD_COMMENTS = MAINPAGE + "/product/w11081782282/gucci-guilty_pour_homme_edt_50_ml";
-    public static final String A_PROMO_DISPOSABLE = MAINPAGE + "/protected/admin/marketing/promos/disposable/";
-    public static final String A_PROMO_REUSABLE = MAINPAGE + "/protected/admin/marketing/promos/reusable/";
     public static final String SMS_SERVICE = "https://qealty.ru/";
 
     public static String catalogPagingForFindProductWarehouse(int pageNumer) {
